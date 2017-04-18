@@ -1,5 +1,6 @@
 192.168.1.20:80 {
     tls off
+    git github.com/ActiveFlyers/joomla-cms.git joomla
     root /var/www/joomla-cms
     log /var/www/joomla-cms/access.log
     errors /var/www/joomla-cms/access_err.log
